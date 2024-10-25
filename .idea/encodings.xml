@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CourseApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CourseCatalog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FutureXCourseApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FutureXCourseCatalog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FutureXEurekaServer/src/main/java" charset="UTF-8" />
+  </component>
+</project>
