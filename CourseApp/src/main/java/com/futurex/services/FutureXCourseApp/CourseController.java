@@ -13,7 +13,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class CourseController {
@@ -48,8 +47,8 @@ public class CourseController {
     }
 
     @RequestMapping("/{id}")
-    public Optional<Course> getSpecificCourse(@PathVariable("id") BigInteger courseId) {
-        return courseRepository.findById(courseId);
+    public Course getSpecificCourse(@PathVariable("id") BigInteger id) {
+        return courseRepository.getOne(id);
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/courses")
