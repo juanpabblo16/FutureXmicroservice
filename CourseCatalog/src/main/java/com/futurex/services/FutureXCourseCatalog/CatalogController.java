@@ -39,7 +39,7 @@ public class CatalogController {
             logger.info("Returning catalog home response");
             return response;
         } catch (Exception e) {
-            logger.error("Error in getCatalogHome", e);
+            logger.error("Error in getCatalogHome from service", e);
             throw e;
         } finally {
             span.end();
